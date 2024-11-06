@@ -1,0 +1,503 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+
+
+nav{
+    display: flex !important;
+}
+main{
+    height: 84.5vh !important;
+    background-color: #787E6D;
+    display: flex !important;
+    position: relative !important;
+    transition:1s;
+}
+carousel-control-prev{
+   color: black;
+}
+.nome1{
+    font-size: 50px;
+}
+.nome{
+    font-size:30px !important;
+    margin-top: 200px;
+}
+.nome::after{
+    position: absolute;
+    transition: 1s;
+    top: 0;
+    left: 900px;
+    content: "";
+    background-color: white;
+    height: 110vh;
+    width: 5px;
+
+    transform: rotate(30deg);
+    transform-origin: top left;
+}
+.nome.darkmode::after{
+    transition: 1s;
+    background-color: black;
+}
+.nome::before{
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    left: 1000px;
+    content: "";
+    background-color: white;
+    height: 110vh;
+    width: 5px;
+    transform: rotate(30deg);
+    transform-origin: top left;
+}
+.nome.darkmode::before{
+    transition: 1s;
+    background-color: black;
+}
+.lista::after{
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    left: 950px;
+    content: "";
+    background-color: white;
+    height: 110vh;
+    width: 5px;
+    transform: rotate(30deg);
+    transform-origin: top left;
+}
+.lista.darkmode::after{
+    transition: 1s;
+    background-color: black;
+}
+.roda{
+    transition: 1s;
+    position: relative;
+    background-color: #2E3422;
+    height: 70vh;
+    width: 100%;
+}
+.roda::after{
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    left: 950px;
+    content: "";
+    background-color: white;
+    height: 80.4vh;
+    width: 5px;
+    transform: rotate(30deg);
+    transform-origin: top left;
+}
+
+.roda::before{
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    left: 1000px;
+    content: "";
+    background-color: white;
+    height: 80.4vh;
+    width: 5px;
+    transform: rotate(30deg);
+    transform-origin: top left;
+}
+nav h1{
+    color: inherit;
+}
+nav{
+    transition: 1s;
+    display: flex !important;
+    justify-content: space-around;
+    color: white;
+}
+nav div{
+    margin-top: 25px;
+}
+
+nav div button{
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #ADB8C5;
+    border: solid black 1px;
+}
+
+
+nav{
+    
+    display: flex !important;
+    transition: 1s;
+    width: 100%;
+    height: 100px;
+    background-color: #2E3422;
+}
+
+.roda{
+    transition: 1s;
+    position: relative;
+    background-color: #2E3422;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    color: white;
+    gap: 50px;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.roda::after{
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    left: 950px;
+    content: "";
+    background-color: white;
+    height: 45.7vh;
+    width: 5px;
+    transform: rotate(30deg);
+    transform-origin: top left;
+}
+.roda div{
+    margin-top: 150px;
+}
+.roda::before{
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    left: 1000px;
+    content: "";
+    background-color: white;
+    height: 45.7vh;
+    width: 5px;
+    transform: rotate(30deg);
+    transform-origin: top left;
+}
+.roda.darkmode::after{
+    transition: 1s;
+    background-color: black;
+}
+.roda.darkmode::before{
+    transition: 1s;
+    background-color: black;
+}
+
+.roda h1{
+    color: inherit;
+}
+.redes{
+
+    position: relative;
+    display: flex;
+    gap: 40px;
+    left: -300px;
+    top: -250px;
+}
+nav  div button{
+    background-color: transparent;
+    color: white;
+    border: none;
+
+}
+
+
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: transparent; /* Fundo invisível */
+    width: 30px; /* Largura da seta */
+    height: 30px; /* Altura da seta */
+}
+
+.carousel-control-prev-icon::after {
+    content: ''; /* Remove o conteúdo padrão */
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 10px solid black; /* Seta esquerda */
+}
+
+.carousel-control-next-icon::after {
+    content: ''; /* Remove o conteúdo padrão */
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid black; /* Seta direita */
+}   
+#section{
+    transition: 1s;
+    padding-top: 100px;
+    height: 100vh;
+    width: 100%;
+}
+#section .darkmode{
+    transition: 1s;
+    background-color: black;
+}
+section h1{
+    font-size: 50px;
+}
+section div{
+    margin-left: 100px;
+}
+
+
+
+footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    gap: 20px;
+    transition: 1s;
+}
+footer h1{
+    font-size: 90px;
+}
+footer div{
+padding-left: 50px;
+}
+footer h3{
+    font-size: 20px;
+}
+
+.bloco1, .bloco2{
+    height: 400px;
+    width: 400px;
+
+}
+
+.bloco1{
+    position: absolute;
+    top: -150px;
+    left: 900px;
+}
+.bloco2{
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+}
+.bloco1 img{
+    height: 200px;
+
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #bababa;
+    -webkit-transition: .4s;
+    transition: 1s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: 1s;
+  }
+  
+  input:checked + .slider {
+    background-color: black;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .trocar-Fundo{
+    position: absolute;    
+    top: 40px;
+  }
+  
+
+.roda button{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+section div img{
+    height: 300px;
+    width: 500px;
+    padding:50px 0 0 300px ;
+}
+.img-trabalho{
+    margin: 0%;
+    width: 100%;
+}
+
+@media (max-width:450px) {
+    body{
+        background-color: white;
+    }
+    .trocar-Fundo{
+        z-index: 1;
+        top: 100px;
+    }
+    .nome{
+        z-index: 3;
+    }
+    .nome::before{
+        z-index: -1;
+        left: 0;
+        height: 540px;
+       transform: translate(350px,10px) rotate(30deg);
+       transform-origin: top left;
+    }
+    .nome::after{
+        z-index: -1;
+        left: 0;
+        height: 540px;
+       transform: translate(350px,10px) rotate(30deg);
+       transform-origin: top left;
+    }
+    .lista{
+        z-index: 2;
+    }
+    .lista::after{
+        z-index: -1;
+        left: 0;
+        height: 540px;
+       transform: translate(300px,10px) rotate(30deg);
+       transform-origin: top left;
+    }
+
+
+    .section h1{
+        font-size: 30px;
+    }
+    .img-trabalho h3{
+        padding-left: 100px;
+        font-size: 25px;
+    }
+    .img-trabalho{
+        position: absolute;
+        left: -50px;
+        padding-top: 10px;
+    }
+    .img-trabalho img{
+        margin: 0;
+        padding-left: 0;
+        height: 100px;
+        width: 300px;
+    }
+
+
+    footer h1{
+        font-size: 50px;
+    }
+    footer h3{
+        width: 300px;
+        font-size: 22px;
+    }
+    footer{
+        height: 120vh;
+    }
+    .bloco1,.bloco2{
+        height: 100px;
+        top: 550px;
+        left: 100px;
+        padding: 0%;
+    }
+    .bloco1 img{
+        height: 100px;
+    }
+    .bloco1{
+        left: 100px;
+    }
+    .bloco2{
+        left: 200px;
+    }
+    .bloco2 img{
+        height: 100px;
+    }
+    .roda{
+        z-index: 1;
+    }
+    .roda::before{
+        left: 300px;
+        z-index: -1;
+    }
+    .roda::after{
+        z-index: -1;
+        left: 350px;
+    }
+    .roda{
+        width: auto;
+    }
+    nav{
+        width: auto;
+    }
+    main{
+        width: auto;
+    }
+    .section{
+        width: auto;
+    }
+    footer{
+        width: auto;
+    }
+  
+    .sobreMim{
+        transform: translateX(-10px);
+    }
+
+    nav h1{
+        font-size: 23px;
+    }
+}
+
+
+#ale{
+    width: 100%;
+    height: 100vh;
+}
+
